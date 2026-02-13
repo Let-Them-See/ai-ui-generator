@@ -1,0 +1,141 @@
+/* ===============================
+   GLOBAL COMPONENT STYLES
+================================ */
+
+.button {
+  padding: 10px 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.2s ease;
+}
+
+.primary {
+  background-color: #26658C;
+  color: #A7EBF2;
+}
+
+.secondary {
+  background-color: #54ACBF;
+  color: #011C40;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* ===============================
+   CARD
+================================ */
+
+.card {
+  background: #A7EBF2;
+  padding: 16px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(1, 28, 64, 0.15);
+  color: #011C40;
+}
+
+/* ===============================
+   INPUT
+================================ */
+
+.input {
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #54ACBF;
+  font-size: 14px;
+  width: 100%;
+  background-color: white;
+  color: #011C40;
+}
+
+/* ===============================
+   NAVBAR
+================================ */
+
+.navbar {
+  background-color: #023859;
+  color: #A7EBF2;
+  padding: 16px;
+}
+
+/* ===============================
+   SIDEBAR
+================================ */
+
+.sidebar {
+  width: 220px;
+  background-color: #011C40;
+  padding: 20px;
+  color: #A7EBF2;
+  min-height: 100vh;
+}
+
+.sidebarItem {
+  margin-bottom: 14px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 6px;
+}
+
+.sidebarItem:hover {
+  background-color: #26658C;
+}
+
+/* ===============================
+   TABLE
+================================ */
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #A7EBF2;
+}
+
+.table th {
+  background-color: #26658C;
+  color: #A7EBF2;
+  padding: 10px;
+}
+
+.table td {
+  border: 1px solid #54ACBF;
+  padding: 8px;
+  color: #011C40;
+}
+
+/* ===============================
+   MODAL
+================================ */
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(1, 28, 64, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #A7EBF2;
+  padding: 20px;
+  border-radius: 8px;
+  width: 320px;
+  color: #011C40;
+}
+
+/* ===============================
+   CHART (Mock)
+================================ */
+
+.chartArea {
+  height: 100px;
+  background: #54ACBF;
+  border-radius: 6px;
+}
